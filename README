@@ -1,0 +1,5 @@
+TEAM: Alex Lim, alim16 :: Anthony Wu, awu42 :: Andrew Zheng, azheng4
+DESIGN: We designed the game to take in a move. After taking in the move, we checked to see what piece it was, we checked to make sure that it was a legal move shape for the piece. After it was a legal shape, we checked to make sure that the path was clear and the endpoint was either the opposite color or empty. After, we made the move on a copy of the board and made sure that the king would not be in check as a result of the move. If everything worked out, the move would execute and the game would continue. Before and after every move, we check for checks.  
+COMPLETENESS: We should have a fully working chess game.
+SPECIAL INSTRUCTIONS: No special instructions.
+
